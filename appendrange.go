@@ -1,6 +1,6 @@
 package piscine
 
-func append(min, max int) []int {
+func Append(min, max int) []int {
 	if max <= min {
 		return []int{}
 	}
