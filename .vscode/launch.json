@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program":  "${workspaceFolder}/reversestrcap/main.go",
+            "args": ["First SMALL TesT"],
+            "trace": "verbose"  // Add this line to get more debug information
+        }
+    ]
+}
